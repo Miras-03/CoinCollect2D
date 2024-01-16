@@ -289,7 +289,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3548ea62006446e4dae2d24e0d672f87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coin: {fileID: 6400685503291857628, guid: e9da6aeb84aeb004ca15c5dddda9acc1, type: 3}
+  coin: {fileID: -2107141737201587311, guid: e9da6aeb84aeb004ca15c5dddda9acc1, type: 3}
 --- !u!4 &817607320
 Transform:
   m_ObjectHideFlags: 0
@@ -319,10 +319,9 @@ GameObject:
   - component: {fileID: 836397148}
   - component: {fileID: 836397153}
   - component: {fileID: 836397147}
-  - component: {fileID: 836397152}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -425,18 +424,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &836397152
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 836397146}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f338bc4a92f9d9349a3e6a219fd1c80c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!54 &836397153
 Rigidbody:
   m_ObjectHideFlags: 0
